@@ -78,6 +78,8 @@ public interface InputArchive {
 }
 ```
 
+> 注意：最新版本中，只保留了`BinaryOutputArchive`/`BinaryInputArchive`的实现
+
 ### 4. 测试示例
 
 首先我们构建一个实体类，实现`Record`接口的`serialize`和`deserialize`方法：
